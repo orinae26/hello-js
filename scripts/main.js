@@ -68,6 +68,14 @@ let names = ["Sam","Alex", "Maria","John"];
 //retrieve elements from an array, index starts at 0
 console.log(names[0]);
 
+//loop through an array
+
+for (n of names){
+    // print each element
+
+    console.log(n);
+}
+
 
 
 
