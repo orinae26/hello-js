@@ -45,6 +45,13 @@ let person = {
     isMarried : false
 }
 
+//retrieve values
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.isMarried);
+
+
 
 
 
