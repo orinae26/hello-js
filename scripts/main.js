@@ -42,7 +42,13 @@ comment */
 let person = { 
     name:"John",
     age : 30,
-    isMarried : false
+    isMarried : false,
+    address :{
+        street : "123 Main St",
+        city : "New York",
+        state : "NY"
+    }
+
 }
 
 //retrieve values
@@ -50,6 +56,23 @@ let person = {
 console.log(person.name);
 console.log(person.age);
 console.log(person.isMarried);
+
+
+
+//let objct =(Object.values(person));
+console.log(Object.values(person.address));
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
