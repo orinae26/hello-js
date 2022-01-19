@@ -82,18 +82,41 @@ names.forEach(function(name, index){
 });
 
 
+//functions
+//addition
+function addition(x,y){
+    return x+y; ;
+};
+console.log(addition(4,6));
 
+//subtraction
+function subtraction(x,y){
+    return x-y;
+};
 
+console.log(subtraction(6,4));
 
+//multiplication
+function multiplication(x,y){
+    return x*y;
+};
 
+console.log(multiplication(4,6));
 
+//division
+function division(x,y){
+    return x/y;
+};
 
+console.log(division(6,4));
 
+//modulus
 
+function modulos(x,y){
+    return x%y;
+};
 
-
-
-
+console.log(modulos(6,4));
 
 
 
