@@ -62,6 +62,14 @@ console.log(person.isMarried);
 //let objct =(Object.values(person));
 console.log(Object.values(person.address));
 
+//Arrays
+
+let names = ["Sam","Alex", "Maria","John"];
+//retrieve elements from an array, index starts at 0
+console.log(names[0]);
+
+
+
 
 
 
