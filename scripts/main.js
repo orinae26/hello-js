@@ -132,7 +132,36 @@ console.log(vehicle.toUpperCase());
 console.log(vehicle.toLowerCase());
 
 
+//loops
+//for loop
 
+
+//prints i 10 times: 0 to 9
+for (i=0; i<=10;i++){
+    console.log(i);
+}
+
+//while loop
+
+let x = 0;
+
+while (x<10){
+    console.log("x is less than 10");
+    x++;
+}
+
+//do while loop
+
+
+let y = 0;
+do{
+    console.log("add 1 ");
+
+}
+while(y<10){
+    console.log("y is less than 10");
+    y++;
+}
 
 
 
