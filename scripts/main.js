@@ -119,7 +119,17 @@ function modulos(x,y){
 console.log(modulos(6,4));
 
 
+//string methods
 
+let vehicle = "John Smith";
+
+//toUpperCase method
+
+console.log(vehicle.toUpperCase());
+
+//toLowerCase method
+
+console.log(vehicle.toLowerCase());
 
 
 
