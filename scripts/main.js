@@ -76,8 +76,10 @@ for (n of names){
     console.log(n);
 }
 
-
-
+//index of an element
+names.forEach(function(name, index){
+    console.log(index + " => " + name);
+});
 
 
 
