@@ -150,17 +150,12 @@ while (x<10){
     x++;
 }
 
-//do while loop
-
-
-let y = 0;
-do{
-    console.log("add 1 ");
-
-}
-while(y<10){
-    console.log("y is less than 10");
-    y++;
+//conditional statements
+let iceCream = "vanilla";
+if(iceCream ==="chocolate"){
+    console.log("Yay, I love chocolate ice cream!");
+}else{
+    console.log("Aww, chocolate is better.");
 }
 
 
