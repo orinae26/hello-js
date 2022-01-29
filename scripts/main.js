@@ -92,6 +92,102 @@ for(station of stations){
 
 }
 
+//arrays
+const shopping = ['milk', 'eggs', 'chocolate', 'bread', 'coffee'];
+
+console.log(shopping);
+
+console.log(shopping.length);
+
+//iterate through an array
+
+for(item of shopping){
+    console.log(item);
+}
+
+//modify an array
+
+shopping[1] = 'cheese';
+
+console.log(shopping);
+
+//indexOf()
+
+console.log(shopping.indexOf('chocolate'));
+
+//multidimensional arrays
+
+const shoppings = ["eggs", "bread", "milk", "chocolate",["tea", "coffee", "juice"]];
+
+//iterate through a multidimensional array
+console.log(shoppings[4][1]);
+
+console.log(shoppings.indexOf("juice"));
+
+//add an item to the end of an array via push()
+
+shoppings.push("vegetables","honey","jam","apples");
+
+console.log(shoppings);
+
+//remove last item from an array via pop()
+
+shoppings.pop();
+
+console.log(shoppings);
+
+//add item in the front of an array
+
+shoppings.unshift("Biscuits");
+console.log(shoppings);
+
+//remove item from the front of an array
+
+shoppings.shift();
+console.log(shoppings);
+
+
+const news = shoppings.splice(2,5);
+
+console.log(shoppings);
+
+
+const shopping2 = ["eggs", "bread", "milk", "chocolate",["tea", "coffee", "juice"]];
+
+for(const shop of shopping2){
+    console.log(shop);
+}
+
+const birds = ['Parrot', 'Falcon', 'Owl'];
+
+for (const bird of birds) {
+    console.log(bird);
+}
+//map()
+const score = [5, 6, 7, 8, 9];
+
+function triple (score){
+    return score * 3;
+}
+
+const totalScore = score.map(triple);
+
+console.log (totalScore);
+//filter()
+function isLong(city){
+    return city.length>8;
+}
+
+const city = ["London","Birmingham", "Southanptom","Bristol","Liverpool","Manchester","Stoke"];
+
+const longCities = city.filter(isLong);
+
+console.log(longCities);
+
+
+
+
+
 
 
 
