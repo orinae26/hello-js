@@ -39,6 +39,47 @@ if(browser.endsWith("zilla")){
     console.log("No, it does not end with zilla");
 }
 
+//slice()
+//returns a substring from 1st character to 3rd character
+console.log(browser.slice(0,3));
+//from 1st character to 2nd last character
+console.log(browser.slice(0, -1));
+//from 3rd character to the end
+console.log(browser.slice(2))
+
+//change case
+//uppercase
+console.log(browser.toUpperCase());
+//lowercase
+console.log(browser.toLowerCase());
+//replace
+const yoghurt = browser.replace("Moz", "Van");
+console.log(yoghurt);
+
+
+//String operations
+const cities = ['lonDon', 'ManCHESTer', 'BiRmiNGHAM', 'liVERpoOL'];
+
+for(let city of cities){
+
+    const lowerCity = city.toLowerCase();
+
+    const firstLetter = lowerCity[0].toUpperCase();
+
+    const capitalCity = lowerCity.replace(lowerCity[0], firstLetter);
+
+    console.log(capitalCity);
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
