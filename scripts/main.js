@@ -183,6 +183,50 @@ const city = ["London","Birmingham", "Southanptom","Bristol","Liverpool","Manche
 const longCities = city.filter(isLong);
 
 console.log(longCities);
+//convert string to array
+const ukCities = "London,Birmingham,Southanptom,Bristol,Liverpool,Manchester,Stoke";
+
+const myArray = ukCities.split(",");
+
+console.log(myArray);
+
+console.log(cities);
+//convert arrays to strings
+const dogNames = ["Fido", "Spot", "Scooby", "Lassie"];
+
+const myArray1 = dogNames.toString();
+
+console.log(myArray1)
+
+
+
+const shopItems = `Underpants:6.99,Socks:5.99,T-shirt:14.99,Trousers:31.99,Shoes:23.99`;
+
+const products= shopItems.split(",");
+
+let total = 0
+
+console.log(products);
+
+for(const product  of products){
+    
+    const subArray = product.split(":")
+
+    const itemName = subArray[0]
+
+    const price = Number(subArray[1])
+
+    total += price 
+
+    const totalPrice = total.toFixed(2)
+
+    const textItem = `${itemName} -- $${price} `
+
+    console.log(textItem)
+}
+
+
+
 
 
 
