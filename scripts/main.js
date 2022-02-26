@@ -49,7 +49,7 @@ person.eyes = "blue";
 
 function Person(name){
   this.name = name;
-  this.age = 0;
+  this.age = 27;
   this.introduceSelf = function(){
     console.log(`Hi, my name is ${this.name}`);
   }
@@ -61,6 +61,15 @@ const frank = new Person ('Frank');
 frank.name;
 frank.age;
 frank.introduceSelf();
+console.log(frank.name);
+console.log(frank.age);
+console.log(frank.introduceSelf());
+
+
+
+
+
+
 
 
 
